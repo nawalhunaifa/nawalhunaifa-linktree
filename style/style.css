@@ -1,14 +1,16 @@
 ﻿@import "reset.css";
 
 html,body{ 
-	width:100%;
-	background:#08101D;
-  position: fixed;
+ width:100%;
+ height:100%;
+ background:#08101D;
+ position: fixed;
 }
 
 #particles-js {
   position: block;
   width: 100%;
+  height: 100%;
   background-color: #08101D;
   background-image: url("");
   background-repeat: no-repeat;
