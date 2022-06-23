@@ -1,0 +1,88 @@
+﻿@import "reset.css";
+
+html,body{ 
+	width:100%;
+	background:#08101D;
+  position: fixed;
+}
+
+#particles-js {
+  position: block;
+  width: 100%;
+  background-color: #08101D;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+html {
+  font-family: 'Source Code Pro', sans-serif;
+  color: white;
+}
+
+.particles-js-canvas-el {
+  position: absolute;
+  inset: 0;
+}
+
+.isi {
+  position:relative;
+  z-index:99;
+}
+
+.nama {
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Source Code Pro', sans-serif;
+  margin: 45px auto;
+  text-align: center;
+}
+
+
+img { 
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid;
+  margin: 15px 0 15px 75px;
+  transition: 500ms;
+  padding: 2px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: blur(0px);
+}
+/* STYLE A BUTTON */
+
+a {
+  border: 1px solid white;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 16em;
+  text-decoration: none;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  transition: 500ms;
+  box-shadow: 5px 5px 5px black;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 20px white;
+}
